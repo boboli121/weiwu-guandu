@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" role="img" aria-label="突击命中反馈">
+  <defs>
+    <filter id="assault-rough" x="-8%" y="-25%" width="116%" height="150%">
+      <feTurbulence type="fractalNoise" baseFrequency=".025 .08" numOctaves="3" seed="193" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="5"/>
+    </filter>
+    <linearGradient id="rush" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#171612" stop-opacity="0"/><stop offset=".26" stop-color="#171612" stop-opacity=".78"/><stop offset=".72" stop-color="#a6322c" stop-opacity=".92"/><stop offset="1" stop-color="#a6322c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#assault-rough)">
+    <path d="M18 103C105 66 188 63 448 90 273 99 168 115 34 139Z" fill="url(#rush)"/>
+    <path d="M67 62c109 4 217 19 346 25M48 126c148-18 259-15 371-22" fill="none" stroke="#d9c49a" stroke-opacity=".46" stroke-width="7" stroke-linecap="round"/>
+    <path d="m372 35 20 45 44-22-26 41 43 20-50 1-3 44-18-40-43 22 28-40-43-22 48 3Z" fill="#a6322c" stroke="#e0c58e" stroke-width="4"/>
+  </g>
+</svg>

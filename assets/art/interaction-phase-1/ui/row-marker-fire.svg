@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 88" role="img" aria-label="火势层数军列标记">
+  <defs>
+    <linearGradient id="fire-tag" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#16130f"/><stop offset=".6" stop-color="#493024"/><stop offset="1" stop-color="#1b1712"/>
+    </linearGradient>
+    <filter id="fire-rough" x="-8%" y="-18%" width="116%" height="136%">
+      <feTurbulence type="fractalNoise" baseFrequency=".04 .1" numOctaves="2" seed="181" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/>
+    </filter>
+  </defs>
+  <path d="M11 15h205l13 14-7 42H23L9 58Z" fill="url(#fire-tag)" stroke="#c3aa71" stroke-width="4" filter="url(#fire-rough)"/>
+  <path d="M39 17c9 14-3 19 5 28 3-7 7-10 9-16 7 16 6 31-8 42-18 0-27-16-18-30 4-7 8-11 12-24Z" fill="#a6322c" stroke="#d7a55f" stroke-width="2"/>
+  <path d="M78 34h86M78 51h69" stroke="#e4d2ab" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="195" cy="44" r="24" fill="#a6322c" fill-opacity=".22" stroke="#d7a55f" stroke-width="4" stroke-dasharray="18 5"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024" role="img" aria-label="曹军牌背">
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#39342d"/><stop offset="1" stop-color="#151411"/></radialGradient>
+    <pattern id="slashes" width="52" height="52" patternUnits="userSpaceOnUse"><path d="m-12 40 52-52M8 60 60 8" stroke="#d2bd91" stroke-opacity=".07" stroke-width="4"/></pattern>
+  </defs>
+  <rect x="20" y="20" width="728" height="984" rx="28" fill="url(#bg)" stroke="#0c0c0a" stroke-width="18"/>
+  <rect x="38" y="38" width="692" height="948" rx="18" fill="url(#slashes)" stroke="#a6302a" stroke-width="7"/>
+  <rect x="58" y="58" width="652" height="908" rx="10" fill="none" stroke="#c8ad72" stroke-width="3"/>
+  <path d="M384 150 615 512 384 874 153 512Z" fill="#211e19" stroke="#a6302a" stroke-width="12"/>
+  <path d="M384 195 568 512 384 829 200 512Z" fill="none" stroke="#c8ad72" stroke-width="5"/>
+  <circle cx="384" cy="512" r="148" fill="#a6302a" stroke="#d1bb8b" stroke-width="10"/>
+  <circle cx="384" cy="512" r="122" fill="#211e19" stroke="#6f211d" stroke-width="4"/>
+  <text x="384" y="588" fill="#dfcfaa" font-family="Songti SC, STSong, serif" font-size="210" font-weight="700" text-anchor="middle">魏</text>
+  <path d="M96 96h114M96 96v114M672 96H558M672 96v114M96 928h114M96 928V814M672 928H558M672 928V814" fill="none" stroke="#a6302a" stroke-width="9"/>
+</svg>

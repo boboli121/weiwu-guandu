@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="袁军军列底板">
+  <defs>
+    <linearGradient id="yuan-row" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#3a2e20" stop-opacity=".94"/>
+      <stop offset=".2" stop-color="#7b6642" stop-opacity=".73"/>
+      <stop offset=".8" stop-color="#7b6642" stop-opacity=".73"/>
+      <stop offset="1" stop-color="#3a2e20" stop-opacity=".94"/>
+    </linearGradient>
+    <pattern id="yuan-cloud" width="80" height="40" patternUnits="userSpaceOnUse">
+      <path d="M2 25c13-19 29-19 42 0 10-11 22-11 34 0" fill="none" stroke="#f2e4c2" stroke-opacity=".07" stroke-width="3"/>
+    </pattern>
+    <filter id="yuan-rough" x="-3%" y="-12%" width="106%" height="124%">
+      <feTurbulence type="fractalNoise" baseFrequency=".011 .075" numOctaves="2" seed="43" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+  </defs>
+  <path d="M24 20h1152l14 16-9 148-15 16H34l-20-18 7-146Z" fill="url(#yuan-row)" stroke="#282017" stroke-width="9" filter="url(#yuan-rough)"/>
+  <path d="M38 37h1124l8 10-6 125-11 10H48l-12-10 4-125Z" fill="url(#yuan-cloud)" stroke="#d0b46d" stroke-opacity=".82" stroke-width="4"/>
+  <path d="M74 52h1052M74 168h1052" stroke="#efe1be" stroke-opacity=".4" stroke-width="2" stroke-dasharray="108 11 38 9"/>
+  <g fill="#e4d3a8" stroke="#71552e" stroke-width="3">
+    <circle cx="53" cy="110" r="23"/><circle cx="1147" cy="110" r="23"/>
+  </g>
+  <path d="M40 110h26M1134 110h26" stroke="#71552e" stroke-width="4"/>
+</svg>

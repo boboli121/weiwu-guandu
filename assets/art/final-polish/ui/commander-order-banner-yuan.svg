@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="袁军主帅军令条幅">
+  <defs><filter id="r"><feTurbulence baseFrequency=".025 .1" numOctaves="2" seed="31" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter><linearGradient id="g" x1="1" x2="0"><stop stop-color="#171612"/><stop offset=".18" stop-color="#41331f"/><stop offset=".5" stop-color="#e4d3ac"/><stop offset=".86" stop-color="#9a783f"/><stop offset="1" stop-color="#171612" stop-opacity="0"/></linearGradient></defs>
+  <path d="m960 44-901-25 52 31L0 72l98 27-64 30 89 24-48 34 885-13Z" fill="url(#g)" filter="url(#r)"/>
+  <path d="M944 69H170m774 97H230" stroke="#9a783f" stroke-width="5" opacity=".95"/>
+  <circle cx="854" cy="110" r="75" fill="#211a16" stroke="#c3aa71" stroke-width="7"/><path d="M820 87h68l-10 48h-48Zm12-15 22-18 22 18" fill="none" stroke="#9a783f" stroke-width="7"/>
+</svg>

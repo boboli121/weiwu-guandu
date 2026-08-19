@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-label="火势伤害与灰烬反馈">
+  <defs>
+    <filter id="ash-rough" x="-14%" y="-14%" width="128%" height="128%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="4" seed="223" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="5"/>
+    </filter>
+    <radialGradient id="ember" cx="50%" cy="70%" r="58%">
+      <stop stop-color="#d18a43"/><stop offset=".48" stop-color="#a6322c"/><stop offset="1" stop-color="#171612" stop-opacity=".08"/>
+    </radialGradient>
+  </defs>
+  <g filter="url(#ash-rough)">
+    <path d="M181 19c38 52 3 68 30 103 19-24 32-50 35-76 37 49 63 108 33 157-35 57-149 58-194 6-44-52-7-111 49-161-2 36 8 61 31 78 14-39-4-69 16-107Z" fill="url(#ember)" stroke="#e0bc78" stroke-opacity=".72" stroke-width="5"/>
+    <path d="M176 116c28 34 42 62 12 103-43 4-66-25-51-57 9-18 27-25 39-46Z" fill="#d49a54" fill-opacity=".8"/>
+    <g fill="#211c17" fill-opacity=".78">
+      <circle cx="62" cy="68" r="8"/><circle cx="93" cy="32" r="5"/><circle cx="292" cy="57" r="7"/><circle cx="317" cy="105" r="4"/>
+      <path d="m46 118 15-6 9 14-18 8ZM301 159l17-8 8 18-19 7ZM98 222l14-11 12 16-18 10Z"/>
+    </g>
+    <path d="M42 219c80 25 187 26 274-4M79 239c72 14 136 14 205-1" fill="none" stroke="#171612" stroke-opacity=".55" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

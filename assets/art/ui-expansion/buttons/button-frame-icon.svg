@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="方形图标按钮边框">
+  <defs>
+    <radialGradient id="icon-face"><stop stop-color="#5c4a33"/><stop offset=".7" stop-color="#28221a"/><stop offset="1" stop-color="#15120f"/></radialGradient>
+    <filter id="icon-rough" x="-8%" y="-8%" width="116%" height="116%"><feTurbulence type="fractalNoise" baseFrequency=".04" numOctaves="2" seed="227" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
+  </defs>
+  <path d="m11 8 74 4 3 73-77 3-3-76Z" fill="url(#icon-face)" stroke="#17130f" stroke-width="7" filter="url(#icon-rough)"/>
+  <path d="m17 16 62 2 2 60-64 3-2-63Z" fill="none" stroke="#c7a66a" stroke-width="3"/>
+  <path d="M22 25V20h13M74 25v-5H61M22 70v7h13M74 70v7H61" fill="none" stroke="#9f3028" stroke-width="3"/>
+  <circle cx="48" cy="48" r="30" fill="none" stroke="#d6bd88" stroke-opacity=".22" stroke-width="2" stroke-dasharray="17 7"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 88" role="img" aria-label="死间伏击军列标记">
+  <defs>
+    <linearGradient id="death-tag" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#15130f"/><stop offset=".68" stop-color="#332820"/><stop offset="1" stop-color="#15130f"/>
+    </linearGradient>
+    <filter id="tag-rough" x="-6%" y="-16%" width="112%" height="132%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035 .11" numOctaves="2" seed="173" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2"/>
+    </filter>
+  </defs>
+  <path d="M12 14h201l16 14-8 43H24L9 58Z" fill="url(#death-tag)" stroke="#c3aa71" stroke-width="4" filter="url(#tag-rough)"/>
+  <path d="M54 22v41M185 22v41" stroke="#a6322c" stroke-width="3" stroke-dasharray="8 5"/>
+  <circle cx="33" cy="43" r="15" fill="#a6322c" fill-opacity=".28" stroke="#a6322c" stroke-width="4"/>
+  <path d="m25 51 16-16M25 35l16 16" stroke="#e3ca94" stroke-width="3"/>
+  <path d="M72 34h94M72 51h77" stroke="#dfcfaa" stroke-opacity=".66" stroke-width="5" stroke-linecap="round"/>
+  <path d="m218 26 13-10-4 20Z" fill="#7f2a25"/>
+</svg>

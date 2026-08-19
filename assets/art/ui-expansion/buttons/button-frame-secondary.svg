@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" aria-label="次操作按钮边框">
+  <defs>
+    <linearGradient id="secondary-face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eadcb9"/><stop offset=".66" stop-color="#c8ae78"/><stop offset="1" stop-color="#9c7b4d"/></linearGradient>
+    <pattern id="secondary-fiber" width="31" height="21" patternUnits="userSpaceOnUse"><path d="M0 7h31M6 17h18" stroke="#4d3c28" stroke-opacity=".08" stroke-width="1"/></pattern>
+    <filter id="secondary-rough" x="-3%" y="-8%" width="106%" height="116%"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="217" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5"/></filter>
+  </defs>
+  <path d="M9 9h302l-7 13 7 55-14 10H23L9 77l7-55Z" fill="url(#secondary-face)" stroke="#251f18" stroke-width="7" filter="url(#secondary-rough)"/>
+  <path d="M16 15h288l-4 10 4 48-10 8H26l-10-8 5-48Z" fill="url(#secondary-fiber)" stroke="#6b5538" stroke-width="2"/>
+  <path d="M35 21h250M35 75h250" stroke="#7f2a25" stroke-width="2" stroke-dasharray="88 8 16 7"/>
+  <path d="M20 28h10v40H20M300 28h-10v40h10" fill="none" stroke="#8d6a3d" stroke-width="3"/>
+</svg>

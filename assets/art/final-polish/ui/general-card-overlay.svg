@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744 1024" role="img" aria-label="武将卡牌专属叠层">
+  <defs><linearGradient id="top" x2="0" y2="1"><stop stop-color="#171612" stop-opacity=".94"/><stop offset="1" stop-color="#171612" stop-opacity="0"/></linearGradient><filter id="r"><feTurbulence baseFrequency=".025" numOctaves="2" seed="53" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.4"/></filter></defs>
+  <path d="M18 142V18h124M602 18h124v124M18 882v124h124m460 0h124V882" fill="none" stroke="#c3aa71" stroke-width="18" filter="url(#r)"/>
+  <path d="M32 174V32h142M570 32h142v142M32 850v142h142m396 0h142V850" fill="none" stroke="#a6322c" stroke-width="5"/>
+  <path d="M55 30h634l-62 115H117Z" fill="url(#top)"/>
+  <path d="m372 16 34 42-34 42-34-42Z" fill="#171612" stroke="#c3aa71" stroke-width="8"/>
+  <path d="M104 966h536" stroke="#c3aa71" stroke-width="4" stroke-dasharray="18 8" opacity=".72"/>
+</svg>

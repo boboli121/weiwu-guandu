@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-label="墨迹页面转场遮罩">
+  <defs><filter id="ink" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="3" seed="83" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="28"/></filter><radialGradient id="g"><stop offset="0" stop-color="#171612"/><stop offset=".66" stop-color="#171612" stop-opacity=".96"/><stop offset="1" stop-color="#171612" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="720" cy="450" rx="760" ry="485" fill="url(#g)" filter="url(#ink)"/>
+  <path d="M53 270c203-102 366-75 514-38 188 47 365-67 600-27 103 17 165 74 235 137M24 638c219-88 410 2 598-37 218-45 389-110 789 10" fill="none" stroke="#171612" stroke-width="82" stroke-linecap="round" opacity=".86" filter="url(#ink)"/>
+</svg>

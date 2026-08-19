@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="小局胜利朱印底板">
+  <defs>
+    <filter id="seal-warp" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="3" seed="89" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="7"/>
+    </filter>
+    <pattern id="seal-chip" width="27" height="31" patternUnits="userSpaceOnUse">
+      <path d="m1 8 9-5M18 27l8-6M4 24l5-3" stroke="#381411" stroke-opacity=".28" stroke-width="5"/>
+    </pattern>
+  </defs>
+  <g filter="url(#seal-warp)">
+    <circle cx="160" cy="160" r="127" fill="#a72e29" fill-opacity=".92"/>
+    <circle cx="160" cy="160" r="127" fill="url(#seal-chip)"/>
+    <circle cx="160" cy="160" r="108" fill="#efe1bc" fill-opacity=".09" stroke="#ead5a8" stroke-width="8" stroke-dasharray="172 13 67 9"/>
+    <path d="M89 80h142v160H89z" fill="none" stroke="#f0d9ac" stroke-opacity=".88" stroke-width="10"/>
+    <path d="M112 105h96v110h-96z" fill="none" stroke="#f0d9ac" stroke-opacity=".55" stroke-width="5" stroke-dasharray="28 8"/>
+  </g>
+</svg>

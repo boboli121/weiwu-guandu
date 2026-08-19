@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 64" role="img" aria-label="强化、受伤、坚守、护卫状态图标">
+  <defs>
+    <filter id="icon-rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".055" numOctaves="2" seed="109" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.3"/>
+    </filter>
+    <symbol id="status-boost" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#1a1814" stroke="#c3aa71" stroke-width="3"/>
+      <path d="m18 37 14-20 14 20h-9v12H27V37Z" fill="#a8322c" stroke="#ead8ae" stroke-width="2"/>
+    </symbol>
+    <symbol id="status-wounded" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#e9dbba" stroke="#5c4932" stroke-width="3"/>
+      <path d="m21 14 10 13 8-9 5 13-9 7 8 12-10-5-7 7-4-14-8-5 10-6Z" fill="#8f2a26" stroke="#351a17" stroke-width="2" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="status-steadfast" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#1b1915" stroke="#c8ae76" stroke-width="3"/>
+      <path d="M32 10 49 17v13c0 11-6 18-17 24-11-6-17-13-17-24V17Z" fill="#635238" stroke="#ead8ae" stroke-width="2"/>
+      <path d="M23 31h18M32 21v20" stroke="#e7d3a7" stroke-width="4" stroke-linecap="square"/>
+    </symbol>
+    <symbol id="status-guard" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#e6d6b2" stroke="#5c4932" stroke-width="3"/>
+      <path d="M15 43c8-16 8-28 8-28l9 8 9-8s0 12 8 28l-17 10Z" fill="#26231e" stroke="#9e302b" stroke-width="3"/>
+      <path d="m23 36 9-7 9 7" fill="none" stroke="#d8c08c" stroke-width="3"/>
+    </symbol>
+  </defs>
+  <g filter="url(#icon-rough)">
+    <use href="#status-boost" x="0" y="0" width="64" height="64"/>
+    <use href="#status-wounded" x="64" y="0" width="64" height="64"/>
+    <use href="#status-steadfast" x="128" y="0" width="64" height="64"/>
+    <use href="#status-guard" x="192" y="0" width="64" height="64"/>
+  </g>
+</svg>

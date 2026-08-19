@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" aria-label="主操作按钮边框">
+  <defs>
+    <linearGradient id="primary-face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8f332c"/><stop offset=".58" stop-color="#69231f"/><stop offset="1" stop-color="#3c1714"/></linearGradient>
+    <pattern id="primary-cuts" width="26" height="26" patternUnits="userSpaceOnUse"><path d="m-5 23 28-28M8 31 31 8" stroke="#f0dfb9" stroke-opacity=".05" stroke-width="2"/></pattern>
+    <filter id="primary-rough" x="-3%" y="-8%" width="106%" height="116%"><feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="2" seed="213" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.7"/></filter>
+  </defs>
+  <path d="M9 8h302l-6 12 6 56-13 12H22L9 77l5-57Z" fill="url(#primary-face)" stroke="#17130f" stroke-width="8" filter="url(#primary-rough)"/>
+  <path d="M15 13h290l-5 10 5 50-10 9H25l-10-8 5-51Z" fill="url(#primary-cuts)" stroke="#c7a66a" stroke-width="2"/>
+  <path d="M34 21h252M34 75h252" stroke="#e0c790" stroke-opacity=".65" stroke-width="2" stroke-dasharray="64 8 18 7"/>
+  <path d="m21 15 19 8-14 12M299 15l-19 8 14 12M21 81l19-8-14-12M299 81l-19-8 14-12" fill="none" stroke="#d6bd88" stroke-width="3"/>
+</svg>

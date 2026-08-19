@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="死间伏击与暴露反馈">
+  <defs>
+    <filter id="ambush-rough" x="-14%" y="-14%" width="128%" height="128%">
+      <feTurbulence type="fractalNoise" baseFrequency=".04" numOctaves="3" seed="211" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="6"/>
+    </filter>
+  </defs>
+  <g filter="url(#ambush-rough)">
+    <path d="M98 42h164l17 23-21 133H88L70 62Z" fill="#d8c39a" stroke="#1b1813" stroke-width="9"/>
+    <path d="m179 41-23 55 24 24-31 80M180 120l37-28-3-50M181 121l44 36-12 43" fill="none" stroke="#281d17" stroke-width="9"/>
+    <circle cx="180" cy="121" r="39" fill="#a6322c" fill-opacity=".86" stroke="#e2c994" stroke-width="5" stroke-dasharray="25 8"/>
+    <path d="m162 103 35 35M197 103l-35 35" stroke="#f0d8aa" stroke-width="7"/>
+    <path d="m62 52-29-19M68 85 26 78M288 51l31-23M286 89l49-3M73 186l-42 21M285 181l45 28" stroke="#171612" stroke-width="9" stroke-linecap="round"/>
+    <path d="m47 139-18 12 25 9M305 132l26 8-20 18M119 211l-10 21 25-6M244 211l12 20-27-5" fill="#171612"/>
+  </g>
+</svg>

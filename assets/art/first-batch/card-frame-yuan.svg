@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024" role="img" aria-label="袁军卡牌外框">
+  <defs>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".016" numOctaves="3" seed="29" result="n"/>
+      <feColorMatrix in="n" values="0 0 0 0 .18 0 0 0 0 .15 0 0 0 0 .1 0 0 0 .22 0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4a3a25"/><stop offset=".42" stop-color="#a5854a"/><stop offset=".7" stop-color="#59452a"/><stop offset="1" stop-color="#2b251d"/>
+    </linearGradient>
+    <pattern id="cloud" width="64" height="32" patternUnits="userSpaceOnUse">
+      <path d="M2 18c10-15 22-15 32 0 8-8 18-8 28 0" fill="none" stroke="#f1e4c7" stroke-opacity=".12" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <path d="M28 28h712v968H28zM70 78v646h628V78z" fill="url(#bronze)" fill-rule="evenodd" filter="url(#paper)"/>
+  <path d="M28 28h712v968H28z" fill="url(#cloud)" fill-rule="evenodd"/>
+  <path d="M28 28h712v968H28z" fill="none" stroke="#2d261d" stroke-width="18"/>
+  <path d="M42 42h684v940H42z" fill="none" stroke="#d1b66e" stroke-width="6"/>
+  <path d="M56 56h656v912H56z" fill="none" stroke="#eee1c1" stroke-width="2"/>
+  <path d="M70 78h628v646H70z" fill="none" stroke="#34291d" stroke-width="12"/>
+  <path d="M70 724h628v244H70z" fill="#eee2c6" fill-opacity=".97" stroke="#3f3323" stroke-width="10"/>
+  <path d="M92 748h584M92 936h584" stroke="#8d6d37" stroke-width="3"/>
+  <g fill="none" stroke="#d0b56c" stroke-width="6">
+    <path d="M58 178V58h120M710 178V58H590M58 846v120h120M710 846v120H590"/>
+    <path d="M74 120c24-42 54-42 80 0M614 120c24-42 54-42 80 0" stroke-width="3"/>
+  </g>
+  <circle cx="114" cy="114" r="27" fill="#eee2c6" stroke="#6d532e" stroke-width="5"/>
+  <path d="M98 112h32M102 101h24M104 123h20" stroke="#5a4327" stroke-width="5"/>
+</svg>

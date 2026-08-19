@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-label="特殊词汇提示框底板">
+  <defs>
+    <linearGradient id="tip-paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f3e8cc"/><stop offset="1" stop-color="#d9c49b"/>
+    </linearGradient>
+    <filter id="tip-edge" x="-7%" y="-10%" width="114%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="2" seed="73" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2"/>
+    </filter>
+  </defs>
+  <path d="M24 17h372l12 13-6 191-14 14H42l-19-16 5-190Z" fill="#1b1814" stroke="#0a0907" stroke-width="9" filter="url(#tip-edge)"/>
+  <path d="M43 37h341v176H43z" fill="url(#tip-paper)" stroke="#b89b62" stroke-width="3"/>
+  <path d="M58 54h5v142h-5z" fill="#a2302b"/>
+  <path d="M78 67h278M78 190h278" stroke="#685238" stroke-opacity=".35" stroke-width="2"/>
+  <path d="m382 213 20 0-20 24Z" fill="#1b1814" stroke="#0a0907" stroke-width="5"/>
+</svg>

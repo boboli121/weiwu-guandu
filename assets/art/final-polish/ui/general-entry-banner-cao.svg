@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 360" role="img" aria-label="曹军武将入场条幅">
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1"><stop stop-color="#171612"/><stop offset=".14" stop-color="#2b211b"/><stop offset=".58" stop-color="#e7d8b5"/><stop offset=".9" stop-color="#c6ad78" stop-opacity=".92"/><stop offset="1" stop-color="#171612" stop-opacity="0"/></linearGradient>
+    <filter id="rough" x="-5%" y="-20%" width="110%" height="140%"><feTurbulence type="fractalNoise" baseFrequency=".018 .08" numOctaves="2" seed="41" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3"/></filter>
+    <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M2 6l9-3m4 12 11-4M4 24l13-5" stroke="#171612" stroke-opacity=".09"/></pattern>
+  </defs>
+  <path d="M0 76C171 41 294 47 456 63L1368 28l-54 38 126 22-115 24 64 29-108 20 76 37-109 23 56 33-107 21 31 48-816-17C275 317 142 300 0 276Z" fill="url(#paper)" filter="url(#rough)"/>
+  <path d="M0 92c176-22 308-8 473-9l744-22M0 268c163 23 320 12 474 13l706 2" fill="none" stroke="#a6322c" stroke-width="6" stroke-opacity=".85" filter="url(#rough)"/>
+  <path d="M0 76C171 41 294 47 456 63L1368 28l-54 38 126 22-115 24 64 29-108 20 76 37-109 23 56 33-107 21 31 48-816-17C275 317 142 300 0 276Z" fill="url(#grain)"/>
+  <circle cx="182" cy="180" r="126" fill="#171612" stroke="#c3aa71" stroke-width="8"/>
+  <circle cx="182" cy="180" r="110" fill="none" stroke="#a6322c" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M363 112h635M363 236h492" stroke="#493024" stroke-width="3" stroke-opacity=".55"/>
+  <path d="M1084 107l52 73-52 73 112-73Z" fill="#a6322c" fill-opacity=".8"/>
+</svg>

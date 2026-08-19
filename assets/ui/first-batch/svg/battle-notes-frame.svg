@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="战场札记浮窗底板">
+  <defs>
+    <linearGradient id="notes-paper" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#efe3c4" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#d9c6a0" stop-opacity=".98"/>
+    </linearGradient>
+    <filter id="notes-grain" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="67" result="n"/>
+      <feColorMatrix in="n" values="0 0 0 0 .22 0 0 0 0 .18 0 0 0 0 .11 0 0 0 .18 0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <pattern id="ruling" width="16" height="44" patternUnits="userSpaceOnUse">
+      <path d="M0 43.5h16" stroke="#5b4a34" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <path d="M30 23h648l19 18-8 457-18 18H41l-20-19 8-455Z" fill="#1a1713" stroke="#090806" stroke-width="12"/>
+  <path d="M49 45h622v449H49z" fill="url(#notes-paper)" stroke="#a12f29" stroke-width="5" filter="url(#notes-grain)"/>
+  <path d="M67 66h586v407H67z" fill="url(#ruling)" stroke="#463b2c" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M88 92h8v352h-8z" fill="#a12f29" fill-opacity=".78"/>
+  <path d="M108 103h512M108 438h512" stroke="#8a6d43" stroke-opacity=".42" stroke-width="2"/>
+  <g fill="none" stroke="#c1a66e" stroke-width="3">
+    <path d="M40 106V37h70M680 106V37h-70M40 434v69h70M680 434v69h-70"/>
+  </g>
+  <circle cx="641" cy="455" r="19" fill="#a12f29" fill-opacity=".2" stroke="#a12f29" stroke-width="4" stroke-dasharray="10 4"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024" role="img" aria-label="计策牌卡框">
+  <defs>
+    <linearGradient id="tactic-bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#161411"/><stop offset=".36" stop-color="#514431"/><stop offset=".62" stop-color="#8d6a3d"/><stop offset="1" stop-color="#201a14"/>
+    </linearGradient>
+    <linearGradient id="scorched-paper" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#eadcb9"/><stop offset=".72" stop-color="#d1b887"/><stop offset="1" stop-color="#8e5a3a"/>
+    </linearGradient>
+    <pattern id="ash-cuts" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="m-7 30 37-37M9 46 46 9" stroke="#f0dfb9" stroke-opacity=".055" stroke-width="3"/>
+    </pattern>
+    <filter id="rough-edge" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="131" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/>
+    </filter>
+  </defs>
+  <path d="M27 27h714v970H27zM72 77v644h624V77z" fill="url(#tactic-bronze)" fill-rule="evenodd" filter="url(#rough-edge)"/>
+  <path d="M27 27h714v970H27z" fill="url(#ash-cuts)" fill-rule="evenodd"/>
+  <path d="M28 28h712v968H28z" fill="none" stroke="#0c0b09" stroke-width="18"/>
+  <path d="M43 43h682v938H43z" fill="none" stroke="#9f3028" stroke-width="6" stroke-dasharray="260 18 75 11"/>
+  <path d="M58 58h652v908H58z" fill="none" stroke="#c7a66a" stroke-width="2"/>
+  <path d="M72 77h624v644H72z" fill="none" stroke="#17130f" stroke-width="12"/>
+  <path d="M72 721h624v245H72z" fill="url(#scorched-paper)" fill-opacity=".97" stroke="#201811" stroke-width="10"/>
+  <path d="M95 747h578M95 932h578" stroke="#7f2a25" stroke-width="3"/>
+  <path d="m76 925 48-14 18 36 54-17 17 37H76Z" fill="#1a1511" fill-opacity=".62"/>
+  <path d="m692 906-46 9-15 37-53-18-18 33h132Z" fill="#1a1511" fill-opacity=".62"/>
+  <g fill="none" stroke="#c5a467" stroke-width="5">
+    <path d="M58 178V58h120M710 178V58H590M58 846v120h120M710 846v120H590"/>
+    <path d="M84 112h65M619 112h65" stroke-width="2" stroke-dasharray="8 6"/>
+  </g>
+  <path d="M89 75h68v68H89z" fill="#201a14" stroke="#ad7f48" stroke-width="5" transform="rotate(-4 123 109)"/>
+  <path d="M106 93h34M106 109h34M106 125h34" stroke="#d8bd82" stroke-width="4"/>
+</svg>

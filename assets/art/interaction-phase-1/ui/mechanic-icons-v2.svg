@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 64" role="img" aria-label="互动机制图标：突击、侦察、潜伏、间谍、死间、暴露、计策、火势">
+  <defs>
+    <filter id="icon-rough" x="-12%" y="-12%" width="124%" height="124%">
+      <feTurbulence type="fractalNoise" baseFrequency=".07" numOctaves="2" seed="157" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/>
+    </filter>
+    <symbol id="mechanic-assault" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#191713" stroke="#c3aa71" stroke-width="3"/>
+      <path d="M10 37c13-14 25-19 42-19L40 29l14 4c-18 1-29 6-40 19Z" fill="#a6322c" stroke="#ead8ae" stroke-width="2"/>
+      <path d="m21 43 6-15M31 37l7-15" stroke="#ead8ae" stroke-width="2"/>
+    </symbol>
+    <symbol id="mechanic-scout" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#e8d9b5" stroke="#5a4932" stroke-width="3"/>
+      <path d="M12 26c12-12 28-12 40 0-10 18-30 18-40 0Z" fill="#25221d" stroke="#a6322c" stroke-width="3"/>
+      <circle cx="32" cy="27" r="6" fill="#d8bd82"/>
+      <path d="M16 48h32M22 42l-6 6 6 6M42 42l6 6-6 6" fill="none" stroke="#6b5538" stroke-width="3"/>
+    </symbol>
+    <symbol id="mechanic-infiltrated" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#191713" stroke="#c3aa71" stroke-width="3"/>
+      <path d="M14 20c11 7 25 7 36 0v24c-12 8-24 9-36 0Z" fill="#67563b" stroke="#ead8ae" stroke-width="2"/>
+      <path d="M21 29h22M21 36h22" stroke="#a6322c" stroke-width="3" stroke-dasharray="6 4"/>
+      <path d="m26 48 6-8 6 8" fill="none" stroke="#ead8ae" stroke-width="3"/>
+    </symbol>
+    <symbol id="mechanic-spy" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#e8d9b5" stroke="#5a4932" stroke-width="3"/>
+      <path d="M18 19h28v32H18z" fill="#c8ae78" stroke="#2a251d" stroke-width="3"/>
+      <path d="M24 26h16M24 33h12M24 40h16" stroke="#6d2824" stroke-width="3"/>
+      <circle cx="46" cy="46" r="9" fill="#22201b" stroke="#a6322c" stroke-width="3"/>
+    </symbol>
+    <symbol id="mechanic-death-agent" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#181612" stroke="#c3aa71" stroke-width="3"/>
+      <path d="m16 43 12-22 8 13 8-18 6 29Z" fill="#7f2a25" stroke="#ead8ae" stroke-width="2"/>
+      <path d="M14 51 51 13" stroke="#a6322c" stroke-width="4" stroke-dasharray="8 4"/>
+      <circle cx="32" cy="32" r="8" fill="none" stroke="#e0c790" stroke-width="3"/>
+    </symbol>
+    <symbol id="mechanic-exposed" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#e8d9b5" stroke="#5a4932" stroke-width="3"/>
+      <path d="M12 34c11-15 29-17 41-3-10 16-31 18-41 3Z" fill="none" stroke="#29251f" stroke-width="4"/>
+      <circle cx="32" cy="33" r="7" fill="#a6322c"/>
+      <path d="m17 14 7 9M47 13l-7 10M9 25l11 3M55 24l-11 4" stroke="#8d6a3d" stroke-width="3"/>
+    </symbol>
+    <symbol id="mechanic-tactic" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#181612" stroke="#c3aa71" stroke-width="3"/>
+      <path d="M17 16h32l-4 36H13Z" fill="#d6bd88" stroke="#a6322c" stroke-width="3"/>
+      <path d="M22 25h19M20 33h18M19 41h13" stroke="#423624" stroke-width="3"/>
+      <circle cx="43" cy="46" r="8" fill="#a6322c" stroke="#e3ca94" stroke-width="2"/>
+    </symbol>
+    <symbol id="mechanic-fire" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="27" fill="#191713" stroke="#c3aa71" stroke-width="3"/>
+      <path d="M33 10c7 12-2 15 5 22 4-6 6-8 8-14 5 10 8 19 3 28-7 12-29 11-35-2-5-11 2-20 11-29 0 9 2 13 6 16 2-8-1-14 2-21Z" fill="#a6322c" stroke="#e1bd75" stroke-width="2"/>
+      <path d="M31 35c5 6 7 11 2 17-7 0-11-4-9-10 2-4 5-5 7-7Z" fill="#d18a43"/>
+    </symbol>
+  </defs>
+  <g filter="url(#icon-rough)">
+    <use href="#mechanic-assault" x="0" width="64" height="64"/>
+    <use href="#mechanic-scout" x="64" width="64" height="64"/>
+    <use href="#mechanic-infiltrated" x="128" width="64" height="64"/>
+    <use href="#mechanic-spy" x="192" width="64" height="64"/>
+    <use href="#mechanic-death-agent" x="256" width="64" height="64"/>
+    <use href="#mechanic-exposed" x="320" width="64" height="64"/>
+    <use href="#mechanic-tactic" x="384" width="64" height="64"/>
+    <use href="#mechanic-fire" x="448" width="64" height="64"/>
+  </g>
+</svg>

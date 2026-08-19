@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="教学军报信息框">
+  <defs><filter id="r"><feTurbulence baseFrequency=".012 .05" numOctaves="2" seed="67" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter><pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M2 5h14M8 15h14" stroke="#493024" stroke-opacity=".08"/></pattern></defs>
+  <path d="M30 24h840l14 18-10 276-19 18H45l-20-16 8-279Z" fill="#e7d8b5" fill-opacity=".94" stroke="#493024" stroke-width="6" filter="url(#r)"/>
+  <path d="M48 44h804v270H48z" fill="url(#p)" stroke="#c3aa71" stroke-width="3"/>
+  <path d="M30 76h840M30 286h840" stroke="#a6322c" stroke-width="4" opacity=".75"/>
+  <circle cx="91" cy="59" r="34" fill="#171612" stroke="#c3aa71" stroke-width="5"/><path d="M75 59h32m-16-16v32" stroke="#e7d8b5" stroke-width="4"/>
+  <path d="m811 43 24 16-24 16m-722 242 21-16 21 16" fill="none" stroke="#493024" stroke-width="4"/>
+</svg>
