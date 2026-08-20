@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://boboli121.github.io/weiwu-guandu/">
-    <img src="assets/art/first-batch/title-key-visual.webp" alt="魏武：官渡——曹操与袁绍对峙" width="900">
+    <img src="assets/readme/weiwu-guandu-cover.png" alt="魏武：官渡——曹操与袁绍对峙" width="900">
   </a>
 </p>
 
@@ -182,4 +182,3 @@ http://localhost:8080
 如果你愿意试玩、反馈，甚至只是在仓库门口点个 Star 再走，都非常感谢。
 
 **愿诸君落子有谋，收兵有度，神抽有时。我们官渡见。**
-
